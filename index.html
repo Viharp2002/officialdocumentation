@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Vcoder</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="x-icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Vcoder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login Modal
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login to iCoder</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputPassword2" class="visually-hidden">Password</label>
+                        <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+
+     <!-- Sign Up Modal -->
+    <!--<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Get an iCoder account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="textexampleFormControlInput1" placeholder="abc...">
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputPassword2" class="visually-hidden">Password</label>
+                        <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                    </div>
+                    <div class="mb-3">
+                        <label for="cinputPassword2" class="visually-hidden">Confirm Password</label>
+                        <input type="password" class="form-control" id="cinputPassword2" placeholder="Password">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Create Account</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/pic1.jpg" height="570px" class="d-block w-100 imagi" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="h55"><b>Welcome to Vcoder</h5></b>
+                        <p class="p55"><b>Technology News, Development, Trends</b></p>
+                        <a href="https://devdocs.io/c/" target="_blank" class="btn btn-danger">C</a>
+                        <a href="https://devdocs.io/cpp/" target="_blank" class="btn btn-primary">C++</a>
+                        <a href="https://www.swift.org/documentation/" target="_blank" class="btn btn-success">Swift</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/pic3.jpg" height="570px" class="d-block w-100 imagi" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="h55"><b>The best coding Blog</h5></b>
+                    <p class="p55"><b>Technology News, Development, Trends</b></p>
+                        <a href="https://docs.flutter.dev/" target="_blank" class="btn btn-danger">Flutter</a>
+                        <a href="https://docs.python.org/3/" target="_blank" class="btn btn-primary">Python</a>
+                        <a href="https://reactjs.org/" target="_blank" class="btn btn-success">React JS</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/pic2.jpg" height="570px" class="d-block w-100 imagi" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="h55">Stay Tuned Excited</h5>
+                    <p class="p55"><b>Technology News, Development, Trends</b></p>
+                    <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/" target="_blank" class="btn btn-danger">C# Manuel</a>
+                    <a href="https://reactnative.dev/docs/getting-started" target="_blank" class="btn btn-primary">React Native</a>
+                    <a href="https://nodejs.org/en/docs/" target="_blank" class="btn btn-success">Node JS</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <hr>
+
+    <h2 class="my-4 text-center" style="color: yellow; text-decoration: underline;">HERE YOU WILL FIND THE OFFICIAL DOCUMENTATION FOR EVERY LANGUAGE</h2>
+   
+    <hr>
+    <form class="form-search">
+        <input type="search" id="searchInput" name="search" placeholder="Language name...">
+        <button disabled type="submit">Search</button>
+        
+    </form>
+    <h1 class="pd-4 text-center my-4" id="found">Oops...Language not found. Please Type exact name of language</h1>
+    <div class="container my-4">
+        <div class="row mb-2 my-4">
+            <div class="vih col-md-6 search">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="vihu search d-inline-block mb-2 text-primary">C</strong>
+                        <h3 class="vihu mb-0">C Language Documentation</h3>
+                        <div class="vihu mb-1 text-muted">Nov 25</div>
+                        <p class="vihu card-text mb-auto">C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972. It is a very popular language, despite being old. C is ...</p>
+                        <a href="https://devdocs.io/c/" class="stretched-link">Visit Website</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="./images/c.png" alt="">
+                    </div>
+                </div>
+            </div>
+             <div class="vih col-md-6 search">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="vihu search d-inline-block mb-2 text-success">Cpp</strong>
+                        <h3 class="vihu mb-0">C++Language Documentation</h3>
+                        <div class="vihu mb-1 text-muted">Nov 23</div>
+                        <p class="vihu mb-auto">C++ is one of the world's most popular programming languages. C++ can be found in today's operating systems, Graphical User Interfaces, and embedded systems.                        </p>
+                        <a href="https://devdocs.io/cpp/" class="stretched-link">Visit Website</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="./images/cpp.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-2">
+             <div class="vih col-md-6 search">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="vihu search d-inline-block mb-2 text-danger">Python</strong>
+                        <h3 class="vihu mb-0">Python Language Documentation</h3>
+                        <div class="vihu mb-1 text-muted">Nov 12</div>
+                        <p class="vihu card-text mb-auto">Python is the latest and vast used programming language nowadays because of its latest updates and versions. Here you can directly go through the manuel.</p>
+                        <a href="https://docs.python.org/3/" class="stretched-link">Visit Website</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="./images/python.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+             <div class="vih col-md-6 search">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="vihu search d-inline-block mb-2 text-warning">Flutter</strong>
+                        <h3 class="vihu mb-0">Flutter Language Documentation</h3>
+                        <div class="vihu mb-1 text-muted">Nov 11</div>
+                        <p class="vihu mb-auto">We all now android studio is no more major requirement for Android Development because Flutter has take its position and becomes fastest to grow as Application Development language.</p>
+                        <a href="https://docs.flutter.dev/" class="stretched-link">Visit Website</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="./images/flutter.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="vih col-md-6 search">
+               <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                   <div class="col p-4 d-flex flex-column position-static">
+                       <strong class="vihu search d-inline-block mb-2 text-danger">Go</strong>
+                       <h3 class="vihu mb-0">Go Language Documentation</h3>
+                       <div class="vihu mb-1 text-muted">Dec 22</div>
+                       <p class="vihu card-text mb-auto">Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.</p>
+                       <a href="https://go.dev/doc/" class="stretched-link">Visit Website</a>
+                   </div>
+                   <div class="col-auto d-none d-lg-block">
+                       <img src="./images/go.png" alt="">
+                   </div>
+               </div>
+           </div>
+            <div class="vih col-md-6 search">
+               <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                   <div class="col p-4 d-flex flex-column position-static">
+                       <strong class="vihu search d-inline-block mb-2 text-warning">HTML</strong>
+                       <h3 class="vihu mb-0">HTML Language Documentation</h3>
+                       <div class="vihu mb-1 text-muted">Jan 14</div>
+                       <p class="vihu mb-auto">HTML Tutorial ... HTML is the standard markup language for Web pages. With HTML you can create your own Website. HTML is easy to learn - You will enjoy it!</p>
+                       <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="stretched-link">Visit Website</a>
+                   </div>
+                   <div class="col-auto d-none d-lg-block">
+                       <img src="./images/html.png" alt="">
+                   </div>
+               </div>
+           </div>
+       </div>
+        <div class="row mb-2">
+             <div class="vih col-md-6 search">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="vihu search d-inline-block mb-2 text-danger">JavaScript</strong>
+                        <h3 class="vihu mb-0">JavaScript Language Documentation</h3>
+                        <div class="vihu mb-1 text-muted">Nov 12</div>
+                        <p class="vihu card-text mb-auto">JavaScript is the world's most popular programming language. JavaScript is the programming language of the Web. JavaScript is easy to learn.</p>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="stretched-link">Visit Website</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="./images/js.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="vih col-md-6 search">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="vihu search d-inline-block mb-2 text-warning">CSS</strong>
+                        <h3 class="vihu mb-0">CSS Language Documentation</h3>
+                        <div class="vihu mb-1 text-muted">Feb 11</div>
+                        <p class="vihu mb-auto">CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed. </p>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" class="stretched-link">Visit Website</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="./images/css.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="vih col-md-6 search">
+               <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                   <div class="col p-4 d-flex flex-column position-static">
+                       <strong class="vihu search d-inline-block mb-2 text-danger">Groovy</strong>
+                       <h3 class="vihu mb-0">Groovy Language Documentation</h3>
+                       <div class="vihu mb-1 text-muted">Nov 14</div>
+                       <p class="vihu card-text mb-auto">A multi-faceted language for the Java platform ... Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation ...</p>
+                       <a href="https://groovy-lang.org/" class="stretched-link">Visit Website</a>
+                   </div>
+                   <div class="col-auto d-none d-lg-block">
+                       <img src="./images/groovy.png" alt="">
+                   </div>
+               </div>
+           </div>
+            <div class="vih col-md-6 search">
+               <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                   <div class="col p-4 d-flex flex-column position-static">
+                       <strong class="vihu search d-inline-block mb-2 text-warning">Delphi</strong>
+                       <h3 class="vihu mb-0">Delphi Language Documentation</h3>
+                       <div class="vihu mb-1 text-muted">Sept 03</div>
+                       <p class="vihu mb-auto">Delphi is a general-purpose programming language and a software product that uses the Delphi dialect of the Object Pascal programming language and provides ...</p>
+                       <a href="https://docwiki.embarcadero.com/RADStudio/Sydney/en/Documentation" class="stretched-link">Visit Website</a>
+                   </div>
+                   <div class="col-auto d-none d-lg-block">
+                       <img src="images/delphi.png" alt="">
+                   </div>
+               </div>
+           </div>
+       </div>
+        <div class="row mb-2">
+            <div class="vih col-md-6 search">
+               <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                   <div class="col p-4 d-flex flex-column position-static">
+                       <strong class="vihu search d-inline-block mb-2 text-danger">PHP</strong>
+                       <h3 class="vihu mb-0">PHP Language Documentation</h3>
+                       <div class="vihu mb-1 text-muted">Oct 09</div>
+                       <p class="vihu card-text mb-auto">PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages. PHP is a widely-used, free, and efficient alternative to ...</p>
+                       <a href="https://www.php.net/docs.php" class="stretched-link">Visit Website</a>
+                   </div>
+                   <div class="col-auto d-none d-lg-block">
+                       <img src="./images/php.png" alt="">
+                   </div>
+               </div>
+           </div>
+           <div class="vih col-md-6 search">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                  <div class="col p-4 d-flex flex-column position-static">
+                      <strong class="vihu search d-inline-block mb-2 text-warning">Perl</strong>
+                      <h3 class="vihu mb-0">Perl Language Documentation</h3>
+                      <div class="vihu mb-1 text-muted">Nov 17</div>
+                      <p class="vihu mb-auto">Perl is a highly capable, feature-rich programming language with over 30 years of development.</p>
+                      <a href="https://perldoc.perl.org/" class="stretched-link">Visit Website</a>
+                  </div>
+                  <div class="col-auto d-none d-lg-block">
+                      <img src="./images/perl.jpg" alt="">
+                  </div>
+              </div>
+          </div>
+      </div>
+         <div class="row mb-2">
+              <div class="vih col-md-6 search">
+                 <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                     <div class="col p-4 d-flex flex-column position-static">
+                         <strong class="vihu search d-inline-block mb-2 text-danger">Kotlin</strong>
+                         <h3 class="vihu mb-0">Kotlin Language Documentation</h3>
+                         <div class="vihu mb-1 text-muted">Oct 12</div>
+                         <p class="vihu card-text mb-auto">Kotlin Usage Highlights ; Gradle. Gradle is introducing Kotlin as a language for writing build scripts ; Corda. Corda is an open-source distributed ledger ...</p>
+                         <a href="https://kotlinlang.org/docs/home.html" class="stretched-link">Visit Website</a>
+                     </div>
+                     <div class="col-auto d-none d-lg-block">
+                         <img src="./images/kotlin.jpg" alt="">
+                     </div>
+                 </div>
+             </div>
+             <div class="vih col-md-6 search">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="vihu search d-inline-block mb-2 text-warning">Node JS</strong>
+                        <h3 class="vihu mb-0">NodeJS Language Documentation</h3>
+                        <div class="vihu mb-1 text-muted">Nov 11</div>
+                        <p class="vihu mb-auto">NodeJs is used for server-side programming, and primarily deployed for non-blocking, event-driven servers, such as traditional web sites and back-end API services</p>
+                        <a href="https://nodejs.org/en/docs/" class="stretched-link">Visit Website</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="./images/node.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="vih col-md-6 search">
+               <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                   <div class="col p-4 d-flex flex-column position-static">
+                       <strong class="vihu search d-inline-block mb-2 text-danger">MATLAB</strong>
+                       <h3 class="vihu mb-0">MATLAB Language Documentation</h3>
+                       <div class="vihu mb-1 text-muted">Nov 06</div>
+                       <p class="vihu card-text mb-auto">MATLAB is an abbreviation for "matrix laboratory." While other programming languages usually work with numbers one at a time, MATLAB® operates on whole ...</p>
+                       <a href="https://www.mathworks.com/help/matlab/" class="stretched-link">Visit Website</a>
+                   </div>
+                   <div class="col-auto d-none d-lg-block">
+                       <img src="./images/matlab.jpg" alt="">
+                   </div>
+               </div>
+           </div>
+           <div class="vih col-md-6 search">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                  <div class="col p-4 d-flex flex-column position-static">
+                      <strong class="vihu search d-inline-block mb-2 text-warning">Scala</strong>
+                      <h3 class="vihu mb-0">Scala Language Documentation</h3>
+                      <div class="vihu mb-1 text-muted">Dec 11</div>
+                      <p class="vihu mb-auto">Scala combines object-oriented and functional programming in one concise, high-level language. Scala's static types help avoid bugs in complex applications, ...</p>
+                      <a href="https://docs.scala-lang.org/" class="stretched-link">Visit Website</a>
+                  </div>
+                  <div class="col-auto d-none d-lg-block">
+                      <img src="./images/scala.png" alt="">
+                  </div>
+              </div>
+          </div>
+      </div>
+        <div class="row mb-2">
+             <div class="vih col-md-6 search">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="vihu search d-inline-block mb-2 text-danger">React Js</strong>
+                        <h3 class="vihu mb-0">ReactJs Language Documentation</h3>
+                        <div class="vihu mb-1 text-muted">Nov 18</div>
+                        <p class="vihu card-text mb-auto"> React makes it painless to create interactive UIs. · Component-Based. Build encapsulated components that manage their own state, then compose ...</p>
+                        <a href="https://reactjs.org/docs/getting-started.html" class="stretched-link">Visit Website</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="./images/react.png" alt="">
+                    </div>
+                </div>
+            </div>
+             <div class="vih col-md-6 search">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="vihu search d-inline-block mb-2 text-warning">React Native</strong>
+                        <h3 class="vihu mb-0">React Native Documentation</h3>
+                        <div class="vihu mb-1 text-muted">Nov 17</div>
+                        <p class="vihu mb-auto">React Native lets you create truly native apps and doesn't compromise your users' experiences. It provides a core set of platform agnostic native components ...</p>
+                        <a href="https://reactnative.dev/docs/getting-started" class="stretched-link">Visit Website</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="./images/native.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-2">
+             <div class="vih col-md-6 search">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="vihu search d-inline-block mb-2 text-danger">Android Studio</strong>
+                        <h3 class="vihu mb-0">Android Studio Documentation</h3>
+                        <div class="vihu mb-1 text-muted">Nov 12</div>
+                        <p class="vihu card-text mb-auto">The fastest developer tools for building market-leading apps and accelerating performance. Android Studio will help you develop your app in a more productive way at scale.</p>
+                        <a href="https://developer.android.com/docs" class="stretched-link">Visit Website</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="./images/android.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+             <div class="vih col-md-6 search">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="vihu search d-inline-block mb-2 text-warning">Swift</strong>
+                        <h3 class="vihu mb-0">Swift Language Documentation</h3>
+                        <div class="vihu mb-1 text-muted">Nov 27</div>
+                        <p class="vihu mb-auto">Swift is a powerful and intuitive programming language for iOS, iPadOS, macOS, tvOS, and watchOS. Writing Swift code is interactive and fun, the syntax is ...</p>
+                        <a href="https://www.swift.org/documentation/" class="stretched-link">Visit Website</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="./images/swift.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-2">
+             <div class="vih col-md-6 search">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="vihu search d-inline-block mb-2 text-danger">R</strong>
+                        <h3 class="vihu mb-0">R Language Documentation</h3>
+                        <div class="vihu mb-1 text-muted">Dec 12</div>
+                        <p class="vihu card-text mb-auto">R is a language and environment for statistical computing and graphics. It is a GNU project which is similar to the S language and environment which was ...</p>
+                        <a href="https://www.r-project.org/other-docs.html" class="stretched-link">Visit Website</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="./images/r.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+             <div class="vih col-md-6 search">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="vihu search d-inline-block mb-2 text-warning">C#</strong>
+                        <h3 class="vihu mb-0">C# Language Documentation</h3>
+                        <div class="vihu mb-1 text-muted">Nov 27</div>
+                        <p class="vihu mb-auto">C# (C-Sharp) is a programming language developed by Microsoft that runs on the .NET Framework. C# is used to develop web apps, desktop apps, mobile apps, ...</p>
+                        <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" class="stretched-link">Visit Website</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="./images/csharp.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-2">
+             <div class="vih col-md-6 search">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="vihu search d-inline-block mb-2 text-danger">Ruby</strong>
+                        <h3 class="vihu mb-0">Ruby Language Documentation</h3>
+                        <div class="vihu mb-1 text-muted">Nov 30</div>
+                        <p class="vihu card-text mb-auto">A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.</p>
+                        <a href="https://www.ruby-lang.org/en/documentation/" class="stretched-link">Visit Website</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="./images/ruby.png" alt="">
+                    </div>
+                </div>
+            </div>
+             <div class="vih col-md-6 search">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="vihu search d-inline-block mb-2 text-warning">Java</strong>
+                        <h3 class="vihu mb-0">Java Language Documentation</h3>
+                        <div class="vihu mb-1 text-muted">Dec 11</div>
+                        <p class="vihu mb-auto">Java is a popular programming language, created in 1995. It is owned by Oracle, and more than 3 billion devices run Java. It is used for:.</p>
+                        <a href="https://docs.oracle.com/en/java/" class="stretched-link">Visit Website</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="./images/java.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="content-footer">
+        <p>Say hi to me on these social networks:</p>
+        <ul class="social">
+            <li><a class="css-is-deranged" target="_blank" href="https://github.com/">GitHub</a></li>
+            <li><a class="css-is-deranged" target="_blank" href="https://twitter.com/Viharp2002">Twitter</a></li>
+            <li><a class="css-is-deranged" target="_blank" href="https://www.linkedin.com/in/vihar-prajapati-a52844226">LinkedIn</a></li>
+        </ul>
+
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+     <script src="./js/script.js"></script>   
+</body>
+
+</html>
